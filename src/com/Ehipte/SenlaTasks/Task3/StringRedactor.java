@@ -7,7 +7,7 @@ public class StringRedactor {
 		str = str.trim();
 		String[] arrayOfWords = str.split(" ");
 		int countOfWords = arrayOfWords.length;
-		System.out.println("Слов в предложении = " + countOfWords);
+		System.out.println("Words in a sentence  = " + countOfWords);
 		Arrays.sort(arrayOfWords);
 		for (int i = 0; i < arrayOfWords.length; i++) {
 			arrayOfWords[i] = StringRedactor.firstUpperCase(arrayOfWords[i]);

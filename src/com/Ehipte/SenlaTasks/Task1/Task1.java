@@ -9,7 +9,7 @@ public class Task1 {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("¬ведите число: ");
+		System.out.println("Insert the number: ");
 		int number = sc.nextInt();
 		MathDecision.isSimple(number);
 		MathDecision.isEvenNumber(number);

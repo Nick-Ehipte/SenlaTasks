@@ -4,7 +4,7 @@ public class CalculationGCD_LCM {
 	
 	public static int isGreatestCommonDivisor(int num1, int num2) {
 		if (num1 % 1 != 0 || num2 % 1 !=0) {
-		System.out.println("¬ведите целые числа!");
+		System.out.println("Enter integers!");
 		}else{
 			while (num1 != 0 && num2 != 0) {
 			int c = num1 % num2;

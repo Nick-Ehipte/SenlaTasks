@@ -22,7 +22,7 @@ public class Task6 {
 			System.out.println(i);
 		}
 
-		System.out.println("Максимальная суммарная ценность : " + backpack.getSumAmount());
+		System.out.println("Max value : " + backpack.getSumAmount());
 
 	}
 }

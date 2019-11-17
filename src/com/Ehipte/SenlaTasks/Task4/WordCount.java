@@ -12,6 +12,6 @@ public class WordCount {
 				howMany++;
 			}
 		}
-		System.out.println("Слово " + word + " встречается в тексте " + howMany + " раз(а)");
+		System.out.println("Word " + word + " found in the text " + howMany + " time");
 	}
 }
